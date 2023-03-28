@@ -1,0 +1,61 @@
+name: inmusic
+description: An Open Source Flutter Music Player App Using Youtube Music
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  logger: ^1.1.0
+  audio_service: ^0.18.9
+  provider: ^6.0.3
+  freezed_annotation: ^2.1.0
+  json_annotation: ^4.6.0
+  audiotagger:
+    git:
+      url: https://github.com/Sangwan5688/Audiotagger
+      ref: 90f2db5
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.2.3
+  just_audio: ^0.9.31
+  on_audio_query: ^2.6.2
+  permission_handler: ^10.2.0
+  sliding_up_panel: ^2.0.0+1
+  palette_generator: ^0.3.3+2
+  supabase: ^1.1.1
+  url_launcher: ^6.1.8
+  uuid: ^3.0.7
+  youtube_explode_dart: ^1.12.3
+  miniplayer: ^1.0.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^3.0.3
+  just_audio_background: ^0.0.1-beta.9
+  intl: ^0.17.0
+  expandable_page_view: ^1.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.0
+  freezed: ^2.1.0+1
+  json_serializable: ^6.3.1
+  msix: ^3.7.0
+
+flutter:
+  uses-material-design: true
+
+msix_config:
+  display_name: Music Player
+  publisher_display_name: Bin
+  identity_name: com.bin.inmusic
+  icons_background_color: transparent
+  file_extension: .mp3, .m4a
