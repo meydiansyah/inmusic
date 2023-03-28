@@ -1,16 +1,28 @@
-# inmusic
+# inMusic
 
-A new Flutter project.
+Flutter project to finished Gameconsign interview test
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+- Clone this repository.
+- Run some commands in CLI :
+    ```sh
+    flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    flutter run
+    ```
+- Wait until commands finish
+- Run the project to your emulator or device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Detail Flutter Project
+
+Gameconsign Test application using :
+
+- Flutter version : `Channel Stable, 3.7.8`
+- Dart version : `2.19.5`
+- Tested `Android` version : `12.0`
+
+![Alt text](/assets/home.JPG "Home View")
+![Alt text](/assets/player.JPG "Player View")
